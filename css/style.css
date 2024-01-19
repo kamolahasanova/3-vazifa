@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  height: 100%;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+h1 {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #e6eff5;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 635px;
+  height: 475px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+.card__wrapper {
+  margin: 40px;
+}
+.card__wrapper__title {
+  color: #2ab3b1;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+}
+.card__wrapper__text {
+  color: #c0df33;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+}
+.card__wrapper__text-description {
+  color: #9aa7be;
+}
+.card__main {
+  background: #2ab3b1;
+  display: flex;
+}
+.card__main__box1 {
+  width: 318px;
+  padding: 40px;
+}
+.card__main__title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+.card__main__box1__group {
+  display: flex;
+}
+.card__main__box1__group__price {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-right: 6px;
+}
+.card__main__box1__group__text {
+  opacity: 0.5;
+}
+.card__main__box1__text {margin-bottom: 41px;
+  margin-top: 4px;
+}
+.card__main__btn {
+  letter-spacing: -0.2px;
+  font-weight: 700;
+  color: #fff;
+  padding: 15px 89px;
+  border-radius: 5px;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+ 
+}
+.card__main__box2 {
+  width: 318px;
+  background-color: #58d0ce;
+  padding: 40px;
+}
+.card__main__box2__text {
+  font-size: 14px;
+  letter-spacing: -0.175px;
+  line-height: 20px;
+  opacity: 0.75;
+}
